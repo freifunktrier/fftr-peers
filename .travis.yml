@@ -1,0 +1,21 @@
+#thank you @freifunk-darmstadt for publishing https://github.com/freifunk-darmstadt/ffda-peers/blob/master/.travis.yml
+
+language: c
+
+before_install:
+ - echo "deb http://repo.universe-factory.net/debian/ sid main" | sudo tee -a /etc/apt/sources.list
+ - echo "deb http://http.debian.net/debian wheezy-backports main" | sudo tee -a /etc/apt/sources.list
+ - sudo apt-get update
+ - sudo apt-get install --force-yes fastd
+
+script:
+ - for f in * ; do echo "checking $f..."; fastd --verify-config --config-peer $f || exit 1; done
+
+notifications:
+  irc:
+    channels:
+      - "irc.freenode.org#freifunktrier"
+    on_success: change
+    on_failure: always
+    use_notice: true
+    skip_join: true
