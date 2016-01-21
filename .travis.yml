@@ -3,7 +3,7 @@
 language: c
 
 before_install:
- - echo "deb http://repo.universe-factory.net/debian/ sid main" | sudo tee -a /etc/apt/sources.list
+ - echo "deb https://repo.universe-factory.net/debian/ sid main" | sudo tee -a /etc/apt/sources.list
  - echo "deb http://http.debian.net/debian wheezy-backports main" | sudo tee -a /etc/apt/sources.list
  - sudo apt-get update
  - sudo apt-get install --force-yes fastd
