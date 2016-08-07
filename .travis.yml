@@ -1,5 +1,7 @@
 #thank you @freifunk-darmstadt for publishing https://github.com/freifunk-darmstadt/ffda-peers/blob/master/.travis.yml
 
+language: bash
+
 script:
  - for f in * ; do echo "checking $f..."; .travis/fastd --verify-config --config-peer $f || exit 1; done
  - grep --no-filename "key" * | egrep -o "[0-9a-f]{60,80}" | sort | uniq -d > /tmp/peers-dubchecker
