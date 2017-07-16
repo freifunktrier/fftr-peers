@@ -3,7 +3,7 @@
 language: bash
 
 script:
- - for f in * ; do echo "checking $f..."; .travis/fastd --verify-config --config-peer $f || exit 1; done
+ - for f in * */* ; do echo "checking $f..."; if test -d "$f"; then echo "skipped directory"; else .travis/fastd --verify-config --config-peer $f || exit 1; fi; done
  - grep --no-filename "key" * | egrep -o "[0-9a-f]{60,80}" | sort | uniq -d > /tmp/peers-dubchecker
  - if [ -s /tmp/peers-dubchecker ]; then
      echo -e '\x1b[31mfound duplicate keys:\x1b[0m';
