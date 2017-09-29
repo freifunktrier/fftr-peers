@@ -1,0 +1,3 @@
+# Neso
+key "92cf7ade8a96a6af7782a2954e54ba47adc83dc4b01f0dd15719c8600b3d4173";
+remote "neso.maschinen.space" port 10004;
