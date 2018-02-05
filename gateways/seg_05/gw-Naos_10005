@@ -1,3 +1,3 @@
 # naos
-key "c3a0faaf9e7fa4eb984d3b3f2322eb13af4fa48ee2b75f4ca290366a61a46cef";
-remote "46.231.178.191" port 10005;
+key "da9dc9101d519207e9bc0f517c2cd6f372726c8d54a19eb72ca8737eabb9eb49";
+remote "naos.tackin.de" port 10005;
