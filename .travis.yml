@@ -22,7 +22,7 @@ script:
 notifications:
   irc:
     channels:
-      - "irc.freenode.org#freifunktrier"
+      - "irc.freenode.org#freifunk-trier"
     on_success: change
     on_failure: always
     use_notice: false
