@@ -1,0 +1,3 @@
+# 54290-Gervasiusstraße
+# 98:de:d0:4b:a5:0a
+key "cc431101247905795b0c0f6aabade64913526ee1ae223d6ffeed78c16dc105a0";
