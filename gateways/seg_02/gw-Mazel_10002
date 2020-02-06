@@ -1,0 +1,3 @@
+# Mazel
+key "d1e96f63cf975c8e7b6adf1677b42d0f8efb65fe39f29b9318687fdea2800bc7";
+remote "mazel.tackin.de" port 10002;
