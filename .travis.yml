@@ -23,7 +23,6 @@ notifications:
   irc:
     channels:
       - "chat.freenode.net#freifunktrier-robots"
-    nick: travisci
     on_success: always
     on_failure: always
     use_notice: false
