@@ -1,3 +1,3 @@
 # erai erai.tackin.de ; gw02.freifunk-trier.de
 key "da9dc9101d519207e9bc0f517c2cd6f372726c8d54a19eb72ca8737eabb9eb49";
-remote "gw02.freifunk-trier.de" port 10004;
+remote "erai.tackin.de" port 10004;
