@@ -1,4 +1,3 @@
-# Rogan
-key "b5737e621356112c19078a0a7195f7da808e3e55c20f3122e79c78587c59026c";
-#remote "rogan.fftr.maschinen.space" port 10005;
-remote "rogan.tackin.de" port 10005;
+# kuga.tackin.de ;  gw05.freifunk-trier.starletp9.de  mit cname auf: gw05.freifunk-trier.de ;
+key "211ea13f4db5ac51c6fe5691eefea0ebe1627ce0878d3ba9876c103f4617468e";
+remote "kuga.tackin.de" port 10005;
