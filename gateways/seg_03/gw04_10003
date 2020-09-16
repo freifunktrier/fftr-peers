@@ -1,3 +1,2 @@
-# Salem.tackin.de ; gw04.freifunk-trier.de
-key "c343ce1df5b807a9961985a54058a494c88a221ff873b164925091e363de784a";
-remote "gw04.freifunk-trier.de" port 10003;
+key "3e157a1ea61d6ba4ddf550150c5df6f9414134f03ed1d4ed94adc2b15a5a449c";
+remote "rustig.tackin.de" port 10003;
